@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>login-Authentication</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<link rel="stylesheet" href="style.css">
+
+<body>
+    <div class="container">
+        <div class="login-page">
+            <div>
+                <h1>Login Form</h1>
+            </div>
+            <div>
+                <p>use Username as Ayushi and Password as 123456</p>
+            </div>
+            <div><span id="error" class="ans"></span></div>
+            <div><span id="success" class="ans"></span></div>
+
+            <form action="" onsubmit="return authenticate()">
+                <div class="box">Username: <input type="text" id="uname" placeholder="Enter name"></div>
+                <div class="box">Password: <input type="text" id="pass" placeholder="Enter password"></div>
+                <input type="submit" id="subbtn" class="btn">
+                <input type="reset" id="resbtn" class="btn" onclick="reset()">
+            </form>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
